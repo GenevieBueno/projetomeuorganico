@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding: 0px;
+    background-color: #EFDCBA;
+    font-family: Roboto Mono;
+    font-size:22px;
+    color:#1D7334;
+}
+.titulo{
+    color:#000000;
+
+}
+
+fieldset{
+    border:0;
+    width: 30vw;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 4px;
+    border-style: solid;
+    margin-top: 38px;
+    font-family: Roboto;
+
+}
+button, input{
+    width: 100%;
+
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botao1{
+    background-color: #1D7334;
+    color:#EFDCBA;
+    border-color: #1D7334;
+}
+
+.botao2{
+    background-color: #EFDCBA;
+    outline-color: #1D7334;
+    color: #1D7334;
+    border-color: #1D7334;
+}
+input{
+    background-color: #E5E5E5;
+    border-color: #1D7334;
+    border-style: solid;
+    border-radius: 4px;
+    outline-color: #1D7334;
+    padding-left: 5px;
+}
+
+label{
+    font-family: Roboto;
+    font-size: 20px;
+}
