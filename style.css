@@ -1,0 +1,101 @@
+body{
+    margin:0 auto;
+    background-color: #EFDCBA;
+    font-family: 'Roboto';
+    max-width:1200px;
+}
+
+body *{
+    box-sizing: border-box;
+}
+
+.image{
+    float:left;
+    padding:30px;
+    width:14vw;
+}
+
+.card-login{
+    width:50%;
+    display:flex;
+    margin-top:25px;
+    float:right;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    padding:30px 35px;
+    background-color: #EFDCBA;
+    border-radius:20px;
+    box-shadow: 0px 10px 40px #96310356;
+}
+
+.titulo > h1{
+    font-family: 'Roboto';
+    font-size:30px;
+    font-style:light;
+    color:#1D7334;
+}
+
+.textfield{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin:10px 0px;
+}
+
+.textfield > input{
+    width:100%;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    background-color:#f7eaea;
+    outline-color: #1D7334;
+    border-style: solid;
+    border-color: #1D7334;
+    font-size:12pt;
+    box-shadow:#96310356;
+    box-sizing: border-box;
+
+}
+
+.textfield > input::placeholder{
+    color:#1D7334;
+}
+
+.textfield > label{
+    font-size: 20px;
+    color:#1D7334;
+    margin-bottom: 10px;
+}
+
+.btn-login > button{ 
+    height:50px;
+    width:25vw;
+    font-size:15px;
+    font-family:'Roboto';
+    font-weight:700;
+    background-color:#1D7334;
+    color:#EFDCBA;
+    border-color: #1D7334;
+    border-style:solid;
+    box-shadow:0px 10px 40px -12px #a835005d;
+    border-radius: 5px;
+    margin:20px;
+}
+
+.btn-cadastrar > button{
+    height:50px;
+    width:25vw;
+    font-size:15px;
+    font-family: 'Roboto';
+    font-weight:700;
+    background-color:#EFDCBA;
+    color:#1D7334;
+    border-color: #1D7334;
+    border-style:solid;
+    border-radius: 5px;
+    margin:20px;
+}
+
